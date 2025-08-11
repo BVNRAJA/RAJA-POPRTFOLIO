@@ -1,0 +1,199 @@
+body {
+    width: left 40%;
+    background-color: black;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    position: relative;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: rgb(164, 159, 159);
+}
+
+nav a {
+    padding-right: 50px;
+    margin-right: 50px;
+    position: relative;
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    animation: slideTop 4s ease forwards;
+    opacity: 0;
+    top: 80px;
+}
+
+nav a:nth-child(1) {
+    animation-delay: 0.12s;
+}
+
+nav a:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+nav a:nth-child(5) {
+    animation-delay: 0.6s;
+}
+
+nav a:nth-child(6) {
+    animation-delay: 0.8s;
+}
+
+nav a:nth-child(3) {
+    animation-delay: 0.10s;
+}
+
+nav a:nth-child(2) {
+    animation-delay: 0.12s;
+}
+
+@keyframes slideTop {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+nav a:hover {
+    color: rgb(0, 255, 255);
+}
+
+p {
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: 20px;
+    animation: slideTop 1s ease forwards;
+    text-decoration: none;
+}
+
+p1 {
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: 20px;
+    animation: colorChange 5s infinite;
+
+
+}
+
+.home {
+    top: 200px;
+    padding: 60px;
+    margin: 50px;
+    position: relative;
+    width: 50%;
+}
+
+span {
+    width: 50%;
+    color: rgb(0, 247, 255);
+    animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        left: 0px;
+        color: red;
+    }
+
+    50% {
+        left: 300px;
+        color: green;
+    }
+
+    100% {
+        left: 500px;
+        color: blue;
+    }
+}
+
+img {
+    width: 450px;
+    border-radius: 50%;
+    margin-left: 70%;
+    position: relative;
+    top: -400px;
+    transition: top 0.5s ease-in-out;
+    animation: slideTop 2s forwards;
+}
+
+
+
+h5 {
+    font-weight: bold;
+
+}
+
+.bodyy {
+    width: 450px;
+    border-radius: 50%;
+    margin-left: 70%;
+    position: relative;
+    top: -700px;
+    transition: top 0.5s ease-in-out;
+    animation: slideTop 2s forwards;
+}
+
+.about {
+    top: 600px;
+    padding: 60px;
+    margin: 50px;
+    position: relative;
+    width: 90%;
+    font-size: 37px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills {
+    top: 700px;
+    padding: 60px;
+    margin: 50px;
+    position: relative;
+    width: 90%;
+    font-size: 37px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.portfolio {
+    top: 900px;
+    padding: 60px;
+    margin: 50px;
+    position: relative;
+    width: 90%;
+    font-size: 37px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact {
+    top: 1100px;
+    padding: 60px;
+    margin: 50px;
+    position: relative;
+    width: 90%;
+    font-size: 37px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.p3 {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
